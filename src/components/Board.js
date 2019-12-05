@@ -28,40 +28,40 @@ class Board extends React.Component {
     let bomb = 0;
 
     if (x > 0) {
-      if (props.board[x-1][y] === 1) {
+      if (props.board[x - 1][y] === 1) {
         bomb++;
       }
 
-      if (y < props.board[x].length - 1 && props.board[x-1][y+1] === 1) {
+      if (y < props.board[x].length - 1 && props.board[x - 1][y + 1] === 1) {
         bomb++;
       }
     }
 
     if (y > 0) {
-      if (x < props.board[x].length - 1 && props.board[x+1][y-1] === 1) {
+      if (x < props.board[x].length - 1 && props.board[x + 1][y - 1] === 1) {
         bomb++;
       }
 
-      if (props.board[x][y-1] === 1) {
+      if (props.board[x][y - 1] === 1) {
         bomb++;
       }
     }
 
-    if (y > 0 && x > 0 && props.board[x-1][y-1] === 1) {
+    if (y > 0 && x > 0 && props.board[x - 1][y - 1] === 1) {
       bomb++;
     }
 
-    if (x < props.board[x].length-1) {
-      if (props.board[x+1][y] === 1) {
+    if (x < props.board[x].length - 1) {
+      if (props.board[x + 1][y] === 1) {
         bomb++;
       }
 
-      if (y < props.board[x].length - 1 && props.board[x+1][y+1] === 1) {
+      if (y < props.board[x].length - 1 && props.board[x + 1][y + 1] === 1) {
         bomb++;
       }
     }
 
-    if (y < props.board[x].length && props.board[x][y+1] === 1) {
+    if (y < props.board[x].length && props.board[x][y + 1] === 1) {
       bomb++;
     }
 
@@ -118,10 +118,10 @@ class Board extends React.Component {
      let rows = this.state.board.map((row, index) => {
       return (
         <Row 
-          cells={row}
-          open={this.open}
-          y={index}
-          key={index}
+          cells = { row }
+          open = { this.open }
+          y = { index }
+          key = { index }
         />
       );
     });
