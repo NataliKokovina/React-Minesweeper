@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Minesweeper/static/css/main.ce4221d1.chunk.css",
+    "main.js": "/React-Minesweeper/static/js/main.f69b7e53.chunk.js",
+    "main.js.map": "/React-Minesweeper/static/js/main.f69b7e53.chunk.js.map",
+    "runtime-main.js": "/React-Minesweeper/static/js/runtime-main.0665b507.js",
+    "runtime-main.js.map": "/React-Minesweeper/static/js/runtime-main.0665b507.js.map",
+    "static/js/2.aa8e4a11.chunk.js": "/React-Minesweeper/static/js/2.aa8e4a11.chunk.js",
+    "static/js/2.aa8e4a11.chunk.js.map": "/React-Minesweeper/static/js/2.aa8e4a11.chunk.js.map",
+    "index.html": "/React-Minesweeper/index.html",
+    "precache-manifest.002a7650e1c3c101340c75a53cb896be.js": "/React-Minesweeper/precache-manifest.002a7650e1c3c101340c75a53cb896be.js",
+    "service-worker.js": "/React-Minesweeper/service-worker.js",
+    "static/css/main.ce4221d1.chunk.css.map": "/React-Minesweeper/static/css/main.ce4221d1.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0665b507.js",
+    "static/js/2.aa8e4a11.chunk.js",
+    "static/css/main.ce4221d1.chunk.css",
+    "static/js/main.f69b7e53.chunk.js"
+  ]
+}
